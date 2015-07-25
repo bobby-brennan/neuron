@@ -3,17 +3,18 @@ var MJ = require('mathjs');
 
 var OPTIONS = {
   h_size: 2,
-  x_size: 1,
-  y_size: 1
+  x_size: 2,
+  y_size: 2
 }
 
-var NUM_STEPS = 500;
+var NUM_STEPS = 5000;
 
 var n = new Neuron(OPTIONS);
 
 var IN_SEQ = [
-  MJ.matrix([1]),
-  MJ.matrix([5]),
+  MJ.matrix([.1, .7]),
+  MJ.matrix([.5, -.2]),
+  MJ.matrix([-.3, -.3])
 ]
 
 for (var i = 0; i < NUM_STEPS; ++i) {

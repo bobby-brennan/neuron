@@ -13,6 +13,7 @@
   "author": "Bobby Brennan",
   "dependencies": {
     "sylvester": "0.0.21",
-    "mathjs": "~1.7.1"
+    "mathjs": "~1.7.1",
+    "node-bitarray": "0.0.2"
   }
 }
